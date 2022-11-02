@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img, video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col, .row > [class^="col-"] {
+  background-color: #563d7c26;
+  border: 1px solid #563d7c33;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */
